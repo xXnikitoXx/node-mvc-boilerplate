@@ -11,12 +11,23 @@ If you don't have existing server you can disable the connection from `data/apps
 
 ### Installation
 Clone or download this branch:
-```git clone -b JS,VueJs,Materialize --single-branch https://tl-git.tk/techlab/templates/other/node-mvc-boilerplate.git```
+```shell
+git clone -b JS,VueJs,Materialize --single-branch https://tl-git.tk/techlab/templates/other/node-mvc-boilerplate.git
+```
 
-Rename the newly created directory:
-```mv node-mvc-boilerplate myProject``` (UNIX based OS)
-```Rename-Item node-mvc-boilerplate myProject``` (PowerShell)
-```rename node-mvc-boilerplate myProject``` (Windows CMD)
+Rename the newly created directory:  
+UNIX based OS:
+```shell
+mv node-mvc-boilerplate myProject
+```  
+PowerShell:
+```powershell
+Rename-Item node-mvc-boilerplate myProject
+```  
+Windows CMD:
+```cmd
+rename node-mvc-boilerplate myProject
+```  
 
 Go into your project directory and install node modules:
 ```
