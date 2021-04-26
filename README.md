@@ -1,3 +1,25 @@
-Switch branches to download the version you want.
+# Node MVC Boilerplate
+## with JavaScript, VueJs and Materialize
 
-**List with planned/available versions coming soon...**
+### Requirements
+* [Node.js](https://nodejs.org)
+* [MongoDB](https://mongodb.com) (Optional)
+
+Note:
+MongoDB connection is enabled by default.
+If you don't have existing server you can disable the connection from `data/appsettings.json`.
+
+### Installation
+Clone or download this branch:
+```git clone -b JS,VueJs,Materialize --single-branch https://tl-git.tk/techlab/templates/other/node-mvc-boilerplate.git```
+
+Rename the newly created directory:
+```mv node-mvc-boilerplate myProject``` (UNIX based OS)
+```Rename-Item node-mvc-boilerplate myProject``` (PowerShell)
+```rename node-mvc-boilerplate myProject``` (Windows CMD)
+
+Go into your project directory and install node modules:
+```
+cd myProject
+npm i
+```

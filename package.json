@@ -1,0 +1,22 @@
+{
+	"name": "node-mvc",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"directories": {
+		"test": "tests"
+	},
+	"scripts": {
+		"start": "node .",
+		"cli": "node ./node_modules/@tech-lab/node-mvc/cli/cli"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@tech-lab/node-mvc": "^1.0.0",
+		"md5": "^2.3.0",
+		"mongodb": "^3.6.6",
+		"node-fetch": "^2.6.1",
+		"sha256": "^0.2.0"
+	}
+}
